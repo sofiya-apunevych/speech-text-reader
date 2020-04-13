@@ -5,6 +5,48 @@ const readBtn = document.getElementById('read');
 const toggleBtn = document.getElementById('toggle');
 const closeBtn = document.getElementById('close');
 
+/*
+//let data =[];
+
+function getData(url) {
+  const response = await fetch(url);
+
+  return response.json()
+}
+
+const data = await getData('img-text.json');
+
+
+console.log('data:' + data);
+
+
+//document.querySelector('.load-page').addEventListener('click', getJsonAjax);
+/* 
+function getJsonAjax() {
+   const xhr = new XMLHttpRequest();
+  
+  xhr.onreadystatechange = function () {
+  if (xhr.readyState === 4 && xhr.status === 200) {
+        //console.log('responseText:' + xhr.responseText);
+        data = JSON.parse(xhr.responseText); 
+        console.log(data);
+  }
+  }
+
+  xhr.open('GET', 'img-text.json', true);
+  xhr.send();
+  
+}
+
+getJsonAjax();
+
+
+
+console.log('data:' + data);
+
+*/
+
+
 const data = [
   {
     image: './img/drink.jpg',
@@ -53,8 +95,25 @@ const data = [
   {
     image: './img/grandma.jpg',
     text: 'I Want To Go To Grandmas'
-  }
+  },
+  {
+    image:'./img/park-com.jpg',
+    text: "I went to the park but there were no birds, not one butterfly or ladybug they were disappearing..."
+  },
+  {
+    image:'./img/park-com.jpg',
+    text: "Sunday, Jim would walk in the Park"
+  },
+  {
+    image:'./img/park-com.jpg',
+    text: "natures looking glass unspoiled by human hands portage through, beauty"
+  },
+  {
+    image:'./img/park-com.jpg',
+    text: "In a fast moving world sometimes you just want to get away. Glacier Nation Park is that get away for me."
+  },
 ];
+
 
 data.forEach(createBox);
 

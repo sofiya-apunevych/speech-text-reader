@@ -1,0 +1,55 @@
+ [ {
+    "image": "./img/drink.jpg",
+    "text": "I am Thirsty"
+   },
+  {
+   "image": "./img/food.jpg",
+    "text": "I am Hungry"
+  },
+  {
+    "image": "./img/tired.jpg",
+    "text": "I am Tired"
+  },
+  {
+    "image": "./img/hurt.jpg",
+    "text": "I am Hurt"
+  },
+  {
+    "image": "./img/happy.jpg",
+    "text": "I am Happy"
+  },
+  {
+    "image": "./img/angry.jpg",
+    "text": "I am Angry"
+  },
+  {
+    "image": "./img/sad.jpg",
+    "text": "I am Sad"
+  },
+  {
+    "image": "./img/scared.jpg",
+    "text": "I am Scared"
+  },
+  {
+    "image": "./img/outside.jpg",
+    "text": "I Want To Go Outside"
+  },
+  {
+    "image": "./img/home.jpg",
+    "text": "I Want To Go Home"
+  },
+  {
+    "image": "./img/school.jpg",
+    "text": "I Want To Go To School"
+  },
+  {
+    "image": "./img/grandma.jpg",
+    "text": "I Want To Go To Grandmas"
+  },
+  {
+   "image":"./img/park-com.jpg",
+    "text": "Sunday, Jim would walk in the Park"
+  }
+ ]
+
+
